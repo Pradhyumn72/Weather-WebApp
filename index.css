@@ -43,6 +43,17 @@ body{
     font-size: 18px;
 
 }
+
+.search button img{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
 .weather-icon{
     width: 150px;
     margin-top: 30px;
@@ -80,3 +91,16 @@ body{
     margin-top: -6px;
 }
    
+
+.weather{
+    display: none;
+}
+
+.errsearch{
+    text-align: left;
+    color: red;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}

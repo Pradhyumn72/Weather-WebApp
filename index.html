@@ -8,9 +8,11 @@
 </head>
 <body>
     <div class="card">
+       <img src="LOGO.svg" alt="" style="width: 90px; height: 90px;"><h1>Weather Forecast</h1>
         <div class="search">
-            <input type="text" placeholder="Enter your city name ">
-            <button>Search</button>
+            <input type="text" placeholder="Enter your city name " class="sinp">
+            <button class="sinbtn" ><img src="search.svg" alt=""></button>
+            <p class="errsearch">Invalid City Name</p>
         </div>
         <div class="weather">
             <img src="rain.svg" alt="" class="weather-icon">
@@ -27,12 +29,15 @@
                 <div class="col">
                     <img src="wind2.png" alt="">
                     <div>
-                        <p class="Wind">10 Km/hr</p>
+                        <p class="wind">10 Km/hr</p>
                         <p>Wind Speed</p>
                         
             </div>
             
         </div>
     </div>
+    
+
+    <script src="index.js"></script>
 </body>
 </html>
